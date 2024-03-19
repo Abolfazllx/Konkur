@@ -1,0 +1,59 @@
+<!-- برای استایل می توان چند عنصر را با کاما جدا کرد و استایل یکسانی به انها داد-->
+<!-- استایل بهتر است در هد قرار بگیرد -->
+<!-- برای استایل میتوان یک تگ در یک تگ دیگر را فقط استایلیزه کرد -->
+<!-- کامنت های css باید در تگ استایل باشند -->
+<html class="bg">
+    <nav>
+        <a href="home.html">home</a>
+    </nav>
+    <style>
+        .bg{
+            background-color:pink
+        }
+        #b2{
+                   background-color:blue;
+                   width:100%;
+               }
+     h1,p  {
+          color: orchid;
+          font-size:large;
+          text-align: center;
+      }
+      p b{
+            color:seagreen;
+            text-transform:capitalize;
+            text-shadow: 1px 1px 4px red;
+        }
+        #b11 {
+            width: 50px;
+        }
+        footer button {color:red
+        }
+    </style>
+    <head>
+     <p>learning...<b>web</b></p></head>
+        <header style="color:maroon;font-size: 20px;font-family:serif;text-decoration=doted;">I am learning web development...</header>
+        <body>
+            <h1>start</h1>
+            
+            <button id="b11";onclick=alert("Hello")>
+  Press here</button>
+  <!-- شروع جاوا اسکریپت با کد بالا  -->
+            <p></p>
+        </body>
+        <footer style="background-color: yellow;color:blue; text-align:center">
+        Thanks for follow us</br>
+           <button id="b2"; onclick=alert("abolfazllx@yahoo.com");>
+               
+               About us</button>
+               <p>test</p>
+        <form>
+            <label for="tr">label</label>
+            <input type="text"
+            name="abol">
+            
+            <input type="submit">
+        </form>
+        </footer>
+  
+</html>
